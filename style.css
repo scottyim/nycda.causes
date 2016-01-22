@@ -56,14 +56,14 @@ a:hover{
 	margin-left: 20px;
 }
 
-#content_wrapper {
+#content_wrapper_home {
 /*	position: absolute;*/
 	top: 174px;
 	display: inline;
 	width: 100%;
 }
 
-#content_left{
+#content_left_home {
 	float: left;
 	width: 15%;
 	height: 1500px;
@@ -79,7 +79,7 @@ a:hover{
 	
 }
 
-#content_right {
+#content_right_home {
 	float: left;
 	display: inline;
 	width: 85%;
@@ -96,15 +96,75 @@ a:hover{
 	color: #ffA500;
 }
 
-#content_left p {
+#content_left_home p {
 	font-family: "Futura", serif;
 	font-size: 14px;
 }
 
-#content_right p {
+#content_right_home p {
 	font-family: "Futura", serif;
 	font-size: 32px;
 	padding-right: 20px;
 }
 
 
+#content_wrapper_contact {
+/*	position: absolute;*/
+	top: 174px;
+	display: inline;
+	width: 100%;
+}
+
+#content_left_contact {
+	float: left;
+	width: 50%;
+	height: 1500px;
+	text-color: #000;
+	align: 50%;
+	background-color: #e4d2ba;
+	padding-top: 174px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 18px;	
+	
+}
+
+#content_right_contact {
+	float: left;
+	display: inline;
+	width: 50%;
+	height: 1500px;
+	background-color: #f1e8dc;
+	padding-top: 174px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+
+#content_left_contact p {
+	font-family: "Futura", serif;
+	font-size: 32px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+#help_text {
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 24px;	
+}
+
+#content_right_contact ul {
+	font-family: "Futura", serif;
+	font-size: 24px;
+	padding-right: 20px;
+}
+
+.contact_option {
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 18px;	
+	text-decoration: none;
+	color: #ff6f42;
+}
